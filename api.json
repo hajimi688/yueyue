@@ -1,0 +1,95 @@
+{
+  "spider": "./spider.jar",
+  "wallpaper": "永久免费切勿购买",
+  "logo": "./java/logo.jpg",
+  "sites": [  
+        {
+            "key": "py_酷我",
+            "name": "哈吉米音乐台-永久免费切勿购买",
+            "type": 3,
+            "api": "./lib/酷我.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+    {
+      "key": "csp_Kugou",
+      "name": "哈吉米-西告音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "jar": "./lib/CG.jar",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "酷狗",
+            "type_id": "kugou"
+          }
+        ]
+      }
+    },
+        {
+            "key": "Cat_聚合音乐",
+            "name": "哈吉米-聚合音乐",
+            "type": 3,
+            "api": "./lib/yinyue_juhe.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        
+        
+                {
+            "key": "啊哈DJ网",
+            "name": "哈吉米-动感MTV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./lib/啊哈DJ网.json",
+            "jar": "./lib/夸克短剧.jar"
+        },
+        {
+            "key": "csp_AiWanMusic",
+            "name": "哈吉米-爱玩音乐",
+            "type": 3,                        
+            "jar": "./lib/dj.jar",
+            "api": "csp_AiWanMusic",
+            "searchable": 1,
+            "changeable": 0
+        },
+
+   
+ {
+            "key": "Cat_听海",
+            "name": "哈吉米-听海音乐",
+            "type": 3,
+            "api": "./lib/tinghai_ting.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "key": "Cat_聚合儿歌",
+            "name": "哈吉米-少儿音乐",
+            "type": 3,
+            "api": "./lib/erge_juhe.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+
+
+        {
+            "key": "py_糖豆",
+            "name": "哈吉米-舞蹈健身",
+            "type": 3,
+            "api": "./lib/糖豆.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        }
+      ]
+}

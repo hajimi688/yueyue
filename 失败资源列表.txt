@@ -1,0 +1,2 @@
+http://rihou.cc:88/js/戏曲大全.js
+https://15487.kstore.space/lib/fty.jar
